@@ -1,11 +1,9 @@
-<?php 
+<?php
 
 sql_regcase( 'Foo - bar.'); // Deprecated.
 
-final class SomeClass
-{
-    public final function SomeMethod()
-    {
-    }
+final class SomeClass {
+
+	final public function SomeMethod() {    }
 }
-?>
+
