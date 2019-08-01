@@ -1,2 +1,2 @@
-var foo= "";
-       ~ [Insert `·`]
+let foo = "";
+~[Insert`·`];
