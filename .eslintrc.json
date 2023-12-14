@@ -53,7 +53,8 @@
     "plugin:redux-saga/recommended",
     "plugin:requirejs/recommended",
     "plugin:security/recommended",
-    "plugin:jasmine/recommended"
+    "plugin:jasmine/recommended",
+    "plugin:svelte/recommended"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
@@ -63,6 +64,12 @@
       "jsx": true
     }
   },
+  "overrides": [
+    {
+      "files": ["*.svelte"],
+      "parser": "svelte-eslint-parser"
+    }
+  ],
   "rules": {
     "mongodb/no-replace": 1,    
     "meteor/no-template-lifecycle-assignments" : 2,
