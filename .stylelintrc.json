@@ -1,13 +1,11 @@
 {
   "plugins": [
     "stylelint-declaration-strict-value",
-    "stylelint-declaration-use-variable",
     "stylelint-order",
     "stylelint-scss"
   ],
   "rules": {
     "scale-unlimited/declaration-strict-value": "color",
-    "sh-waqar/declaration-use-variable": "color",
     "order/order": [
       "custom-properties",
       "declarations"
