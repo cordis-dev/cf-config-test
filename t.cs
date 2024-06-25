@@ -1,14 +1,15 @@
-// should report 1508
-// should not report 1505
+// should report 1516
 public class Test
 {
-	public virtual ActionResult Claim(PageContext contex)
-	{
-		if (context.CanBeClaimed)
-		{
-			
-		}
-
-		return new EmptyResult();
-	}
+    public event EventHandler SomeEvent
+    {
+        add
+        {
+            // add event subscriber here
+        }
+        remove
+        {
+            // remove event subscriber here
+        }
+    }
 }
