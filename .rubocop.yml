@@ -35,6 +35,9 @@ Style/CharacterLiteral:
   
 Layout/TrailingWhitespace:
   Enabled: true
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
   
 Lint/UselessSetterCall:
   Enabled: true
