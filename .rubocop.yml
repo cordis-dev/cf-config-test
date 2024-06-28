@@ -38,6 +38,9 @@ Layout/TrailingWhitespace:
 
 Layout/EmptyLineBetweenDefs:
   Enabled: true
+
+Layout/EmptyLineAfterMultilineCondition:
+  Enabled: true
   
 Lint/UselessSetterCall:
   Enabled: true
