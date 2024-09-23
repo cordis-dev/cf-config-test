@@ -4,7 +4,6 @@ confidence = 0.8
 errorCode = 0
 warningCode = 0
 
-[rule.atomic]
 [rule.context-keys-type]
 [rule.identical-branches]
 [rule.unexported-return]
