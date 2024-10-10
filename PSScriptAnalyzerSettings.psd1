@@ -2,6 +2,7 @@
     IncludeRules=@('PSAvoidAssignmentToAutomaticVariable',
                 'PSUseToExportFieldsInManifest',
                 'PSUseSupportsShouldProcess',
+                'AvoidUsingWriteHost',
                 'PSUsePSCredentialType',
                 'PSReservedParams',
                 'PSReservedCmdletChar',
