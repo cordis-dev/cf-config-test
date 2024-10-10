@@ -1,11 +1,8 @@
-# show AvoidUsingWriteHost
-# show AvoidAssignmentToAutomaticVariable
+# show PSAvoidUsingWriteHost
+# show PSAvoidAssignmentToAutomaticVariable
 function Get-CustomErrorMessage($ErrorMessage){ $Error = "Error occurred: $ErrorMessage" }
 
-function Get-Test
+function Write-Test
 {
-	...
 	Write-Host "test"
-	...
-	Write-Host 42
 }
