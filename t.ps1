@@ -1,4 +1,4 @@
-# hide AvoidUsingWriteHost
+# show AvoidUsingWriteHost
 # show AvoidAssignmentToAutomaticVariable
 function Get-CustomErrorMessage($ErrorMessage){ $Error = "Error occurred: $ErrorMessage" }
 
