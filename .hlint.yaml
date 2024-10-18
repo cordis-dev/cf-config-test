@@ -1,0 +1,8 @@
+- ignore: { }
+
+- error: {name: "Use readTVarIO"}
+- error: {name: "Use newTVarIO"}
+- error: {name: "Use newTMVarIO"}
+- error: {name: "Use newEmptyTMVarIO"}
+
+- warning: {name: "Redundant flip"}
