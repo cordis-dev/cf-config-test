@@ -3,7 +3,6 @@ only_rules:
   - unused_closure_parameter
   - unneeded_break_in_switch
   - leading_whitespace
-  - trailing_semicolon
   - superfluous_disable_command
   - redundant_void_return
   - redundant_string_enum_value
