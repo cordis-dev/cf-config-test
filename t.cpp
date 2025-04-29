@@ -3,6 +3,8 @@ size_t TF_DataTypeSize(TF_DataType dt) {
 	if (true)
 	{
 	}
-	
+
     tensorflow::DataTypeSize(static_cast<DataType>(dt)));
+
+
 }
