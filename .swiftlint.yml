@@ -6,7 +6,7 @@ only_rules:
   - superfluous_disable_command
   - redundant_void_return
   - redundant_string_enum_value
-  - redundant_optional_initialization
+  - implicit_optional_initialization
   - redundant_nil_coalescing
   - private_unit_test
   - legacy_nsgeometry_functions
@@ -21,3 +21,4 @@ only_rules:
   - mark
   - notification_center_detachment
   - valid_ibinspectable
+  - empty_parameters
