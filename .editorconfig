@@ -1623,6 +1623,8 @@ dotnet_diagnostic.SA1652.severity = none
 
 dotnet_diagnostic.SA1505.severity = none
 
+dotnet_diagnostic.SA1516.severity = none
+
 dotnet_diagnostic.SYSLIB1045.severity = none
 
 dotnet_diagnostic.SYSLIB1054.severity = none
